@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "routes": [
+      { 
+        "src": "/.*",
+        "headers": {
+          "Access-Control-Allow-Headers": "*",
+          "Access-Control-Allow-Origin": "*"
+        },
+        "dest": "/api/index.js" }
+    ]
+  }
