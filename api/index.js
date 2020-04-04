@@ -54,5 +54,23 @@ const stockData = () => {
       stockPrice: getUpdatedRates(92.81).toFixed(2) + " USD",
       timeElapsed: "10 sec ago",
     },
+    {
+      company: "Vivint Solar Inc",
+      ticker: "VSLR",
+      stockPrice: getUpdatedRates(4.11).toFixed(2) + " USD",
+      timeElapsed: "10 sec ago",
+    },
+    {
+      company: "Pluralsight Inc",
+      ticker: "PS",
+      stockPrice: getUpdatedRates(9.50).toFixed(2) + " USD",
+      timeElapsed: "10 sec ago",
+    },
+    {
+      company: "salesforce.com, inc.",
+      ticker: "CRM",
+      stockPrice: getUpdatedRates(134.31).toFixed(2) + " USD",
+      timeElapsed: "10 sec ago",
+    },
   ];
 };
