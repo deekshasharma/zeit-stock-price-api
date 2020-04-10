@@ -67,7 +67,7 @@ const stockData = () => {
       timeElapsed: "10 sec ago",
     },
     {
-      company: "salesforce.com, inc.",
+      company: "Salesforce.com, inc.",
       ticker: "CRM",
       stockPrice: getUpdatedRates(134.31).toFixed(2) + " USD",
       timeElapsed: "10 sec ago",
